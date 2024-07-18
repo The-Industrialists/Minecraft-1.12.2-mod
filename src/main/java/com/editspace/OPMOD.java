@@ -1,4 +1,4 @@
-package com.example;
+package com.editspace;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -6,14 +6,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(
-	modid = SampleMod112.MODID,
-	name = SampleMod112.NAME,
-	version = SampleMod112.VERSION
+	modid = OPMOD.MODID,
+	name = OPMOD.NAME,
+	version = OPMOD.VERSION
 )
-public class SampleMod112 {
-	public static final String MODID = "samplemod112";
-	public static final String NAME = "Sample Mod 1.12";
-	public static final String VERSION = "1.0";
+public class OPMOD {
+	public static final String MODID = "editspace";
+	public static final String NAME = "Op mod";
+	public static final String VERSION = "0.0.1";
 	
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 	
