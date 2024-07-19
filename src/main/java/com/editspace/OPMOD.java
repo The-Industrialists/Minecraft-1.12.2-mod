@@ -1,6 +1,5 @@
 package com.editspace;
 
-import com.editspace.proxy.CommonProxy;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -28,8 +27,7 @@ public class OPMOD {
 	
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
-	@SidedProxy(serverSide = "com.editspace.proxy.CommonProxy", clientSide = "com.editspace.proxy.ClientProxy")
-	public static CommonProxy proxy;
+
 
 
 	@Mod.EventBusSubscriber
