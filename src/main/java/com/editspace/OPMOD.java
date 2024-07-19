@@ -1,5 +1,6 @@
 package com.editspace;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -28,7 +29,7 @@ public class OPMOD {
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
 
-
+	public static final CreativeTabs OP_MOD_TAB = new OpModTab();
 
 	@Mod.EventBusSubscriber
 	public static class RegistrationHandler {

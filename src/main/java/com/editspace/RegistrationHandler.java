@@ -1,6 +1,7 @@
 package com.editspace;
 
 
+import com.editspace.util.RegistryUtil;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
@@ -13,7 +14,8 @@ public class RegistrationHandler {
     @SubscribeEvent
     public static void registerItems(Register<Item> event) {
         final Item[] items = {
-                new Item().setRegistryName(OPMOD.MODID, "chewry").setTranslationKey(OPMOD.MODID + "." + "chewry").setCreativeTab(CreativeTabs.MISC)
+                RegistryUtil.setItemName(new Item(), "chewry").setCreativeTab(OPMOD.OP_MOD_TAB)
+
         };
 
         event.getRegistry().registerAll(items);
