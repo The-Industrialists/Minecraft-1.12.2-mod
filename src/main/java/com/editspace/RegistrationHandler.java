@@ -2,7 +2,6 @@ package com.editspace;
 
 
 import com.editspace.util.RegistryUtil;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
