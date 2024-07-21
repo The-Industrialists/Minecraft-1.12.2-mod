@@ -9,4 +9,5 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 public class ModItems {
 
     public static final Item CHEWRY = null;
+    public static final Item CHEWRY_SWORD  = null;
 }
