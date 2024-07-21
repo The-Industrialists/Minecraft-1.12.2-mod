@@ -14,6 +14,7 @@ public class ItemBase extends Item {
         setTranslationKey(name);
         setRegistryName(name);
 
+
     }
 
     public void registerItemModel() {

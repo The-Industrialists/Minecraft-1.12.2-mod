@@ -1,13 +1,13 @@
 [
 	{
-		"modid": "samplemod112",
-		"name": "Sample Mod 1.12",
-		"description": "Sample mod for 1.12.2, using ForgeGradle 5.1.",
+		"modid": "opmod",
+		"name": "OP Mod C Edition",
+		"description": "OP mod Complex Edition for 1.12.2",
 		"version": "${version}",
 		"mcversion": "1.12.2",
 		"url": "",
 		"updateUrl": "",
-		"authorList": ["You!"],
+		"authorList": ["editspace"],
 		"credits": "",
 		"logoFile": "",
 		"screenshots": [],

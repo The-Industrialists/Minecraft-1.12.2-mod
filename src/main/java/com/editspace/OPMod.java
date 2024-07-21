@@ -20,7 +20,7 @@ import org.apache.logging.log4j.Logger;
 )
 public class OPMod {
 	public static final String MODID = "opmod";
-	public static final String NAME = "Op mod D edition";
+	public static final String NAME = "Op mod C edition";
 	public static final String VERSION = "0.0.1";
 	
 	public static final Logger LOGGER = LogManager.getLogger(MODID);

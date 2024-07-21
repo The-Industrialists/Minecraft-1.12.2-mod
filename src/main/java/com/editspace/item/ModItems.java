@@ -6,7 +6,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class ModItems {
 
-    public static ItemBase chewry = new ItemBase("chewry").setCreativeTab(CreativeTabs.MATERIALS);
+public static ItemBase chewry = new ItemBase("chewry").setCreativeTab(CreativeTabs.MISC);
 
 
     public static void register(IForgeRegistry<Item> registry) {
